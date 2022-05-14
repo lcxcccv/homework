@@ -53,7 +53,7 @@ static void thread1_entry(void *parameter)
     {
         rt_kprintf("the priority of thread2 is: %d\n", tid2->current_priority);
         rt_kprintf("the priority of thread3 is: %d\n", tid3->current_priority);
-        rt_kprintf("test OK.\n");
+        rt_kprintf("test is OK.\n");
     }
 }
 
