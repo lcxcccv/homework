@@ -37,7 +37,7 @@ static void timeout1(void *parameter)
 /* 定时器2超时函数 */
 static void timeout2(void *parameter)
 {
-    rt_kprintf("one shot timer is timeout\n");
+    rt_kprintf("one shot timer was timeout\n");
 }
 
 int timer_sample(void)
