@@ -16,7 +16,7 @@
 */
 #include <rtthread.h>
 
-/* 定时器的控制块 */
+/* 定时器的控制块 123*/
 static rt_timer_t timer1;
 static rt_timer_t timer2;
 static int cnt = 0;
