@@ -51,7 +51,7 @@ void producer_thread_entry(void *parameter)
         /* 修改array内容，上锁 */
         rt_sem_take(&sem_lock, RT_WAITING_FOREVER);
         array[set % MAXSEM] = cnt + 1;
-        rt_kprintf("the producer generates a number: %d\n", array[set % MAXSEM]);
+        rt_kprintf(" producer generates a number: %d\n", array[set % MAXSEM]);
         set++;
         rt_sem_release(&sem_lock);
 
