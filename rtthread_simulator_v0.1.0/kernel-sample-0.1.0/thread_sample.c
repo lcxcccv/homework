@@ -29,7 +29,7 @@ static void thread1_entry(void *parameter)
 
     while (1)
     {
-        /* 线程1采用低优先级运行，一直打印计数值 */
+        /* 线程1采用低优先级运行，一直打印计数值  */
         rt_kprintf("thread1 count: %d\n", count ++);
         rt_thread_mdelay(500);
     }
